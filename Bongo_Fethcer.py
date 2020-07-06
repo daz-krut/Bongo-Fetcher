@@ -2,7 +2,6 @@
 # coding: utf-8
 
 import urllib.request as req
-import urllib.parse as par
 from bs4 import BeautifulSoup
 
 def AquireURL():
