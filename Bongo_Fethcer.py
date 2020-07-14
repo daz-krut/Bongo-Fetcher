@@ -16,7 +16,7 @@ def AquireURL():
 
     Top_Artcle = soup.select_one('#contents > main > div > div:nth-child(3) > article:nth-child(1) > a')
 
-    return ps.urljoin(Kyoto_Base_URL + Top_Artcle.attrs['href'])
+    return ps.urljoin(Base_URL, Top_Artcle.attrs['href'])
 
 if __name__ == "__main__":
 
